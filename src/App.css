@@ -1,0 +1,93 @@
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+.header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #F55A5A;
+  margin: 0px 0px 25px 0px;
+  color: white;
+  .globe-img {
+    height: 20px;
+    width: 20px;
+    padding: 5px;
+  }
+}
+
+.render {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 500px;
+  margin: 50px 0px 50px 0px;
+  .coverImage {
+    height: 200px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .cards-first {
+      display: flex;
+      align-items: center;
+      height: 12px;
+      width: fit-content;
+      .location-img {
+        height: 10px;
+        width: 10px;
+        margin-right: 5px;
+        padding: 0;
+      }
+      .country {
+        font-weight: 400;
+        font-size: 12px;
+        margin-right: 40px;
+        padding: 0;
+      }
+      .link {
+        font-size: 12px;
+        color: grey;
+        padding: 0;
+      }
+    }
+    .placeName {
+      font-weight: 700;
+      font-size: 25px;
+      height: 30px;
+      padding: 0;
+      margin: 10px 0px 0px 0px;
+    }
+    .date {
+      font-size: 12px;
+      font-weight: 600;
+      height: 12px;
+      margin: 15px 0px 10px 0px;
+    }
+    .description {
+      font-size: 11px;
+    }
+  }
+}
+
+.horizontalRule {
+  height: 2px;
+  width: 500px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: grey;
+}
